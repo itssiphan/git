@@ -7,7 +7,6 @@ git push -u origin main
 
 
 # Initialize git repo
-
 git init
 
 
