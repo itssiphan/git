@@ -6,7 +6,7 @@ git remote add origin https://github.com/itssiphan/layout_dynamicRoutes_and_404a
 git push -u origin main
 
 
-Initialize git repo
+# Initialize git repo
 # git init
 
 
