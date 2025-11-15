@@ -1,103 +1,187 @@
-🔝 Your original commands (unchanged):
+# Initialize git repo
+
 git init
+
+
+# Add all files to staging
+
 git add .
+
+
+# Commit your first changes
+
 git commit -m "first commit"
+
+
+# Rename current branch to main
+
 git branch -M main
+
+
+# Add GitHub remote
+
 git remote add origin https://github.com/itssiphan/layout_dynamicRoutes_and_404anderrorpage.git
+
+
+# First time push to GitHub
+
 git push -u origin main
 
-👇 Git Commands (comment first → commands below it)
-Basic Git Commands
-❗ Check file status
+
+
+# ---------- BASIC COMMANDS ----------
+
+# Check which files are modified / staged
+
 git status
 
-❗ View commit history
+
+# View commit history
+
 git log
 
-❗ Clone a project
+
+# Clone a project from GitHub
+
 git clone <url>
 
-Add & Commit
-❗ Add all files to staging
-git add .
 
-❗ Add a single file
+
+# ---------- ADD & COMMIT ----------
+
+# Add a single file
+
 git add filename
 
-❗ Commit changes
+
+# Commit changes
+
 git commit -m "message"
 
-❗ Add + commit tracked files together
+
+# Add + commit tracked files together
+
 git commit -am "message"
 
-Remote Commands
-❗ Show connected remotes
+
+
+# ---------- REMOTE COMMANDS ----------
+
+# Show current remotes
+
 git remote -v
 
-❗ Remove a remote
+
+# Remove remote
+
 git remote remove origin
 
-❗ Add a new remote
+
+# Add new remote
+
 git remote add origin <url>
 
-❗ First-time push of a branch
-git push -u origin main
 
-❗ Push new updates
+# Push updates
+
 git push
 
-Branch Commands
-❗ List branches
+
+
+# ---------- BRANCH COMMANDS ----------
+
+# List branches
+
 git branch
 
-❗ Create a new branch
+
+# Create new branch
+
 git branch new-branch
 
-❗ Switch to a branch
+
+# Switch to a branch
+
 git checkout new-branch
 
-❗ Create + switch
+
+# Create + switch to a branch
+
 git checkout -b new-branch
 
-❗ Merge a branch into current
+
+# Merge a branch into current
+
 git merge new-branch
 
-❗ Delete a branch
+
+# Delete a branch
+
 git branch -d new-branch
 
-Pull & Fetch
-❗ Pull latest updates
+
+
+# ---------- PULL / FETCH ----------
+
+# Pull latest updates
+
 git pull origin main
 
-❗ Fetch updates without merging
+
+# Fetch updates without merge
+
 git fetch
 
-Undo / Restore / Reset
-❗ Restore a specific file
+
+
+# ---------- UNDO / RESET ----------
+
+# Restore a specific file
+
 git restore filename
 
-❗ Restore all files
+
+# Restore all files
+
 git restore .
 
-❗ Undo last commit but keep changes
+
+# Undo last commit but keep changes
+
 git reset --soft HEAD~1
 
-❗ Undo last commit + delete changes
+
+# Undo last commit + remove changes
+
 git reset --hard HEAD~1
 
-❗ Old way to discard file changes
+
+# Old method to discard file changes
+
 git checkout -- filename
 
-Stash Commands
-❗ Temporarily save your work
+
+
+# ---------- STASH ----------
+
+# Temporarily save uncommitted changes
+
 git stash
 
-❗ Apply stashed work
+
+# Apply stashed work
+
 git stash pop
 
-❗ List all stashes
+
+# Show stash list
+
 git stash list
 
-Push New Branch
-❗ Push a new branch to GitHub
+
+
+# ---------- PUSH NEW BRANCH ----------
+
+# Push new branch to GitHub
+
 git push -u origin branchname
