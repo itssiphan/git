@@ -1,18 +1,29 @@
 git init
+
 git add .
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/itssiphan/layout_dynamicRoutes_and_404anderrorpage.git
+
 git push -u origin main
 
+# Initialize git repo
 
-# git init
-#  git add .
-#  git commit -m "first commit"
+git init
+
+
+# Add all files to staging
+git add .
+
+
+# Commit your first changes
+git commit -m "first commit"
 
 
 # Rename current branch to main
-
 git branch -M main
 
 
@@ -181,5 +192,8 @@ git stash list
 # ---------- PUSH NEW BRANCH ----------
 
 # Push new branch to GitHub
+
+git push -u origin branchname
+
 
 git push -u origin branchname
