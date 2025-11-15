@@ -9,10 +9,8 @@ git push -u origin main
 # Initialize git repo
 # git init
 
-
 # Add all files to staging
-
-git add .
+#  git add .
 
 
 # Commit your first changes
