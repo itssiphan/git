@@ -11,33 +11,6 @@ git remote add origin https://github.com/itssiphan/layout_dynamicRoutes_and_404a
 git push -u origin main
 
 
-Initialize git repo
-
-git init
-
-
-Add all files to staging
-git add .
-
-
-Commit your first changes
-git commit -m "first commit"
-
-
-Rename current branch to main
-git branch -M main
-
-
-# Add GitHub remote
-
-git remote add origin https://github.com/itssiphan/layout_dynamicRoutes_and_404anderrorpage.git
-
-
-# First time push to GitHub
-
-git push -u origin main
-
-
 
 # ---------- BASIC COMMANDS ----------
 
